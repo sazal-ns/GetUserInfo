@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. By Noor Nabiul Alam Siddiqui
+  -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/material_blue_900"/>
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_wc_red_a400_48dp"/>
+    </item>
+
+</layer-list>

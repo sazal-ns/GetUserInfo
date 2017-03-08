@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. By Noor Nabiul Alam Siddiqui
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_client"
+            android:icon="@drawable/ic_person_add_black_48dp"
+            android:title="Add Client" />
+        <item
+            android:id="@+id/nav_client_List"
+            android:icon="@drawable/ic_person_black_48dp"
+            android:title="Client List" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_48dp"
+            android:title="Log Out" />
+    </group>
+
+</menu>
