@@ -149,9 +149,9 @@ public class MainActivity extends AppCompatActivity {
     private Fragment getHomeFragment() {
         switch (navItemIndex) {
             case 1:
-                return new AddClientFragment();
-            default:
                 return new ShowClientFragment();
+            default:
+                return new AddClientFragment();
         }
     }
 
@@ -178,7 +178,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
             new AlertDialog.Builder(MainActivity.this)
-                    .setIcon(getResources().getDrawable(R.drawable.ic_power_settings_new_black_48dp))
                     .setTitle("Exit")
                     .setMessage("Are you sure to exit !!!")
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
